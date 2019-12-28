@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>			 
+	       <!-- 
+		   Name: Fatima Dautovic
+		   Course: Web Application Development
+		   Assignment: 4 (CSS, HTML, JavaScript, PHP)
+		   Due date: 29.12.2019.
+		   Purpose: The purpose of this page is to make CV using HTML and CSS, JavaScript and PHP
+		   -->
+		  
+           <meta charset="utf-8">
+		
+		   <link rel="stylesheet" type="text/css" href="cv.css">
+           <title>CV</title>
+		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/2d23f9a9cd.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		   <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script>
+function bigImg(x) {
+  x.style.height = "500px";
+  x.style.width = "400px";
+}
+
+function normalImg(x) {
+  x.style.height = "400px";
+  x.style.width = "300px";
+}
+</script>
+
+
+     <body>
+	  <div class="row">
+	  <div class="col-md-4" style="background-color:pink; text-align:center">
+	  
+      
+	  <figure><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" style="height:50%; width:80%;  vertical-align: middle; border-radius: 50%; " class="media-img" src="fatimad.jpg" ></figure>
+ <h3 id="pa">PERSONAL INFORMATION</h3>
+			   <br/>
+			   <i class="fas fa-user" style="font-size:30px;"></i>
+			   <p>Fatima Dautovic</p>
+			   <i class="fas fa-map-pin"style="font-size:30px;"></i>
+			   <p>Bosanska 110, 72270 Travnik (Bosnia and Herzegovina)</p>  
+			 
+			   <i class="fas fa-phone"style="font-size:30px;"></i>
+			   <p>061/340-547 </p>
+			 
+			   <i class="fas fa-at"style="font-size:30px;"></i>
+			   <p><a href="mailto:fatima_dautovic@hotmail.com">fatima_dautovic@hotmail.com</a></p>
+			   
+			   <i class="fas fa-venus-mars"style="font-size:30px;"></i>
+			   <p>Female </p>
+   			   <i class="fas fa-birthday-cake"style="font-size:30px;"></i>
+			   <p>29/11/1998 </p>
+			   <i class="fas fa-female"style="font-size:30px;"></i>
+			   <p>Bosniak </p>
+			   
+			   <br>
+			   <br>
+			   <br>
+			   <br>
+			   <hr/>
+			  <form>
+  
+  <h4>CONTACT ME</h4>
+  <div class="form-group">
+  <label for="exampleInputEmail1">Username</label>
+    <input type="user" class="form-control" id="exampleInputuser" aria-describedby="userHelp">
+	</div>
+	<div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group">
+    <label for="Message">Message</label>
+    <input type="mess" class="form-control" id="Mess" aria-describedby="messHelp">
+    <small id="messHelp" class="form-text text-muted">No one will be able to see this message expect me.</small>
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+      </div>
+
+	   <div class="col-md-8">
+	  <div class="jumbotron"style="background-color:white;" >
+	  	      <h2><i class="fas fa-briefcase"></i>&nbsp; WORK EXPERIENCE</h2>
+          <ul> 
+          <p><b>01/07/2013-30/08/2017</b></p>
+	         <li>Volunteer <br><i> Merhamet, Travnik (Bosnia and Herzegovina)</i> </li>
+          </ul>
+
+	 
+	   <h2><i class="fas fa-graduation-cap"></i>&nbsp; EDUCATION</h2> <div class="timeline">
+  <div class="containera left">
+    <div class="contenta"> <ul>
+      <p><b>PRESENT</b></p>
+<li> Faculty of Engineering and Natural Science, Software Engineering, International University of Sarajevo<br><i> Bachelor - Engineer of Software Engineering, Sarajevo (Bosnia and Herzegovina)</i> </li>
+    </div>
+  </div>
+  <div class="containera right">
+    <div class="contenta">
+     <p><b>&nbsp;01/09/2013-27/04/2017</b></p>
+      <li> Elci Ibrahim-pasina medresa <br><i>High school, Travnik (Bosnia and Herzegovina)</i> </li>
+          </ul>
+    </div>
+  </div>
+</div>
+
+ 
+	<h2><i class="fas fa-tasks"></i>&nbsp;PROJECTS</h2>
+	<p>Projects done during my third year of faculty using HTML, CSS, JavaScript and PHP: <p/>
+	<ol>
+	<li><a href="https://fatimad6.github.io/Repository-3/" style="font-size:20px;">My CV</a></li>
+	<li>Page for my city:<a href="https://fatimad6.github.io/Project-1/" style="font-size:20px;"> Travnik </a></li>
+	<li>Page for caffe:<a href="https://fatimad6.github.io/Project-2/" style="font-size:20px;"> Royal caffe and pattiserie</a> </li>
+	
+	
+	</ol>
+	<h2><i class="fab fa-artstation"></i>&nbsp; PERSONAL SKILLS</h2>
+<p>Bosnian language
+<div class="progress">
+  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div></p>
+<p>English language
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+</div></p>
+<p>Turkish language
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+</div></p>
+<p>Arabic language
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+</div> </p>
+<h4 class="me">&nbsp;Communication skills</h4>
+	     
+	      <ul>
+	          <li> good communication skills through my experience as a participant of a debate</li>
+	          <li> good contact skills with elder people through my experience as a volunteer </li>
+	      </ul>
+ <h4>&nbsp;Other skills</h4>
+	      
+	      <ul type="circle">
+	          <li>Good knowledge of programming in Java, C++ and HTML & CSS</li>
+	          <li> High responsibility</li>
+	          <li>Working under pressure</li>
+	          <li>Flexible and open-minded</li>
+	          <li>Focused, multi-task oriented, positive, able to adapt effectively to challenging and emergency situations</li>
+	      </ul>
+	   
+		 
+	     
+		 <legend><h4>&nbsp;Driving license</h4></legend>
+		
+	     &nbsp;A<input type="checkbox" name="A"  value="yes" >
+		 B<input type="checkbox" name="B"  value="yes" checked>
+		 C<input type="checkbox" name="C" value="yes">
+		 D<input type="checkbox" name="D"  value="yes">
+</div>
+<p>This document was last modified <span id="demo"></span>.</p>
+
+<script>
+document.getElementById("demo").innerHTML = document.lastModified;
+</script>
+ 
+
+
+
+	  </div>
+	  </div>
+	  
+	
+	 </body>
+	 </html>
